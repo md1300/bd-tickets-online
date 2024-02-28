@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bd ticket</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- header section -->
+    <header>
+       <!-- navigation bar -->
+       <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Home</a></li>
+              <li>
+                <a>About</a>
+              </li>
+              <li><a>Destination</a></li>
+              <li><a >Search</a></li>
+            </ul>
+          </div>
+         <h2>P-Ticket</h2> 
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li>
+             <a >About</a>
+            </li>
+            <li><a>Destination</a></li>
+            <li><a>Search</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end  ">
+           <button class="btn bg-lime-200">
+            <span class="text-lime-400">Bus</span>
+            <img src="images/bus-icon.png" >
+          </button>
+        </div> 
+      </div>
+      <!------------------ banner section  ----------------- -->
+      <div class="hero min-h-screen" style="background-image: url(images/banner.png);">
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-content text-center text-neutral-content">
+          <div class="max-w-md">
+            <h1 class="mb-5 text-5xl font-bold">End to End Travel With</h1>
+            <h2 class="mb-5 text-3xl font-bold text-lime-500">P Paribahan</h2>
+            <p class="mb-5">yes, you can run unit test and view the results directly within the app. the integrate testing feature allow for a streamline </p>
+           
+             <button class="btn  bg-lime-500 text-black ">Buy Tickets</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+    <!------------------- best offer for you------------------- -->
+    <section class="border-4">
+        <!------------ heading line ------------------------- -->
+        <div class="flex justify-center">
+            <h1 class="text-3xl font-bold">Best offer for you</h1>
+        </div>
+        <!-- ----------offer cards -------------- -->
+        <div class="grid grid-cols-2 gap-4">
+        <!-------------offer card one ------------- -->
+           <div class="flex justify-between border  bg-amber-300">
+            <div>
+                <h1>15% off</h1>
+                <h3>on your next purchase</h3>
+                <h4>use by january 2024</h4> 
+            </div>
+            <div>
+                <h1>news <sub>15</sub></h1>
+                <p>coupon code</p>
+            </div>
+            </div>
+        <!-------------offer card two---------------------  -->
+        <div class="flex justify-between border  bg-amber-300">
+            <div>
+                <h1>20 % off</h1>
+                <h3>on your next purchase</h3>
+                <h4>use by january 2024</h4> 
+            </div>
+            <div>
+                <h1>couple <sub>20</sub></h1>
+                <p>coupon code</p>
+            </div>
+        </div>
+        </div>
+        <!------------- see all offers ---------------- -->
+        <div class="flex justify-center mt-3">
+            <button class="btn text-lime-400" > see all offer</button>
+        </div>
+    </section>
+    <!----------------------P.H -paribahan heading section  -->
+    <section>
+        <!------------------title container   ------------>
+          <div class="flex flex-col items-center border-4">
+            <h1>P.H Paribahan</h1>
+            <p> yes, you can run unit test and view the results directly within the app. the integrate testing feature allow for a streamline </p>
+          </div>
+ </section>
+<!-- ------------------------location, prices and seat left -->
+<section>
+     <!------------------greenline paribahan ------- ---- -->
+    <div class="flex gap-10"> 
+        <!----------------coach name and bus icon-------------->
+         <div class="flex gap-2">
+            <div><img src="images/bus-logo.png" alt=""></div>
+            <div>
+                <h2>Greenline Paribahan</h2>
+                <p> coach-009-WEB</p>
+            </div>
+         </div>
+         <!-----------------seat button and icon -----------  -->
+         <div>
+            <button class="btn bg-lime-200"><img src="images/seat-green.png" > <p class=" text-lime-500"><span>40</span> seats left</p></button>
+         </div>
+      </div>
+      <!------------------route,depareturetime and est-time ---------------->
+      <div>
+        <div class="flex justify-between border-4">
+            <p>route</p>
+            <p>Dhaka-Sylhet</p>
+        </div>
+        <hr>
+        <div class="flex justify-between border-4">
+            <p>Depareture time</p>
+            <p> 9:00 PM</p>
+        </div>
+        <div class="flex justify-around border-4">
+            <p>boadering point-Laxmipur</p>
+            <p>dropping point - Bogura</p>
+            <p>Est.Time -11 hours</p>
+        </div>
+      </div>
+      <!-- ----------------- seat prices ------------------------- -->
+      <div class="grid justify-center items-center border-4">
+        <p><img src="images/fare.png" alt=""></p>
+        <h1>550 taka</h1>
+        <p>per seat</p>
+      </div>
+</section>
+<section>
+    <div class="flex justify-around gap-1 my-1 w-full">
+        <kbd class="kbd">A1</kbd>
+        <kbd class="kbd">A2</kbd>
+        <kbd class="kbd">A3</kbd>
+        <kbd class="kbd">A4</kbd>  
+      </div>
+    <div class="flex justify-around gap-1 my-1 w-full">
+        <kbd class="kbd">B1</kbd>
+        <kbd class="kbd">B2</kbd>
+        <kbd class="kbd">B3</kbd>
+        <kbd class="kbd">B4</kbd>  
+      </div>
+    <div class="flex justify-around gap-1 my-1 w-full">
+        <kbd class="kbd">c1</kbd>
+        <kbd class="kbd">c2</kbd>
+        <kbd class="kbd">c3</kbd>
+        <kbd class="kbd">c4</kbd>  
+      </div>
+    <div class="flex justify-around gap-1 my-1 w-full">
+        <kbd class="kbd">D1</kbd>
+        <kbd class="kbd">D2</kbd>
+        <kbd class="kbd">D3</kbd>
+        <kbd class="kbd">D4</kbd>  
+      </div>
+    <div class="flex justify-around gap-1 my-1 w-full">
+        <kbd class="kbd">E1</kbd>
+        <kbd class="kbd">E2</kbd>
+        <kbd class="kbd">E3</kbd>
+        <kbd class="kbd">E4</kbd>  
+      </div>
+    <div class="flex justify-around gap-1 my-1 w-full">
+        <kbd class="kbd">F1</kbd>
+        <kbd class="kbd">F2</kbd>
+        <kbd class="kbd">F3</kbd>
+        <kbd class="kbd">F4</kbd>  
+      </div>
+    <div class="flex justify-around gap-1 my-1 w-full">
+        <kbd class="kbd">G1</kbd>
+        <kbd class="kbd">G2</kbd>
+        <kbd class="kbd">G3</kbd>
+        <kbd class="kbd">G4</kbd>  
+      </div>
+    <div class="flex justify-around gap-1 my-1 w-full">
+        <kbd class="kbd">H1</kbd>
+        <kbd class="kbd">H2</kbd>
+        <kbd class="kbd">H3</kbd>
+        <kbd class="kbd">H4</kbd>  
+      </div>
+    <div class="flex justify-around gap-1 my-1 w-full">
+        <kbd class="kbd">I1</kbd>
+        <kbd class="kbd">I2</kbd>
+        <kbd class="kbd">I3</kbd>
+        <kbd class="kbd">I4</kbd>  
+      </div>
+    <div class="flex justify-around gap-1 my-1 w-full">
+        <kbd class="kbd ">J1</kbd>
+        <kbd class="kbd ">J2</kbd>
+        <kbd class="kbd ">J3</kbd>
+        <kbd class="kbd ">J4</kbd>  
+      </div>
+</section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
